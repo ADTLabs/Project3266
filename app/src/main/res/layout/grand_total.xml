@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:maxWidth="80dp"
+    android:background="@color/color_amount"
+    android:layout_margin="3dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:textSize="20dp"
+        android:text="@string/final_amount"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/textView5"
+        android:layout_marginEnd="32dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:textSize="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/text_title_color"
+        android:text="jgjkhghjghjghj"
+        android:id="@+id/textView5" />
+</RelativeLayout>

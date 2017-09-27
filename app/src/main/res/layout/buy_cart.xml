@@ -1,0 +1,31 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:layout_gravity="center"
+    android:id="@+id/view_rating"
+    android:background="@color/colorItemList"
+    android:layout_below="@+id/prod_name"
+    android:gravity="center"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:maxLines="1"
+        android:textColor="@color/color_bottom_text"
+        android:background="@color/colorGreen"
+        android:text="@string/buy" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/color_bottom_text"
+        android:background="@color/colorRed"
+        android:maxLines="1"
+        android:text="@string/addCart" />
+</LinearLayout>
